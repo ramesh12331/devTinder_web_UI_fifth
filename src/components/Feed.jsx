@@ -1,9 +1,10 @@
 import React from 'react'
+import UserCard from './UserCard'
 
 const Feed = () => {
   return (
-    <div>
-      Feed
+    <div className='flex justify-center my-10'>
+      <UserCard/>
     </div>
   )
 }
